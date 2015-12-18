@@ -49,3 +49,29 @@ h2 {
              -20px -20px 60px #ffffff;
 }
 
+.addToCart{
+  float:right;
+  margin-top: 0px;
+  border-radius: 7px;
+}
+
+/* Keeps color buttons on item page from colliding on resize */
+@media screen and (max-width: 929px ) {
+  .colorButton,
+  .addToCart {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-device-width: 575px ) {
+  canvas {
+    width:100%;
+    height: 100%;
+  }
+  .info {
+    margin: 30px;
+    padding: 30px;
+  }
+
+}
+
