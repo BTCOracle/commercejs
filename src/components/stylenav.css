@@ -106,3 +106,6 @@ h2 {
 
 #cartNumber {
   color: #ffffff;
+  float: right;
+  margin-left: 7px;
+  font-size: 15px;
