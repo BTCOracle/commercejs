@@ -120,3 +120,7 @@ h2 {
   max-block-size: inherit;
 }
 
+.cartInfo {
+  margin-top: 20px;
+}
+
