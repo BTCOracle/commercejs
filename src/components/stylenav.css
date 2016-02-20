@@ -129,3 +129,12 @@ h2 {
   margin-top: 20px;
 }
 
+#buy {
+  float: right;
+  border-radius: 7px;
+  margin: 10px 0 80px;
+}
+
+.quantityButton{
+  height: 27px;
+  width: 27px;
