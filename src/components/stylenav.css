@@ -166,3 +166,7 @@ canvas {
 }
 
 * {
+  box-sizing: border-box;
+}
+
+.sr-only {
