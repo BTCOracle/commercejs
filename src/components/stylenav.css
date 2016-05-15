@@ -214,3 +214,11 @@ h2 {
 /* Keeps color buttons on item page from colliding on resize */
 @media screen and (max-width: 929px ) {
   .colorButton,
+  .addToCart {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-device-width: 575px ) {
+  canvas {
+    width:100%;
