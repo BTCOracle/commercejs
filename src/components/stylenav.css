@@ -280,3 +280,11 @@ h2 {
   margin-top: 20px;
 }
 
+#total{
+  float: right;
+  margin-top: 20px;
+}
+
+#buy {
+  float: right;
+  border-radius: 7px;
