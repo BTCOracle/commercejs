@@ -394,3 +394,8 @@ h2 {
 }
 
  /* Cart Styling */
+ .cart{
+  position: fixed;
+  top: 70px;
+  right: 0;
+  height: 100vh;
