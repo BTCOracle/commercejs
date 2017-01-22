@@ -466,3 +466,7 @@ span .fas {
   float:right;
 }
 
+body,
+html,
+canvas {
+  width: 100vw;
