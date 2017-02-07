@@ -475,3 +475,10 @@ canvas {
   padding:0;
   background-color: #2D3047;
   background-image: linear-gradient(147deg, #2D3047 0%, #eae6e5 74%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sr-only {
