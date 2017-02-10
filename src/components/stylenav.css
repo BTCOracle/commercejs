@@ -482,3 +482,4 @@ canvas {
 }
 
 .sr-only {
+  z-index: 1;
