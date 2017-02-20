@@ -483,3 +483,7 @@ canvas {
 
 .sr-only {
   z-index: 1;
+}
+/* Item Page Styling */
+.item {
+  background: #fafdff;
