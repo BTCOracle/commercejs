@@ -487,3 +487,13 @@ canvas {
 /* Item Page Styling */
 .item {
   background: #fafdff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info {
+  margin: 30px 30px 15px 0;
+  padding: 30px;
