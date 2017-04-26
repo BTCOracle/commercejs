@@ -546,3 +546,8 @@ h2 {
 /* Navbar Styling */
 .mainNav {
   height: 70px;
+  z-index: 20;
+}
+
+ /* Cart Styling */
+ .cart{
