@@ -567,3 +567,19 @@ h2 {
 }
 .cart h4 {
   color: #ffffff;
+}
+.cart h3 {
+  color: #ffffff;
+}
+
+#cartNumber {
+  color: #ffffff;
+  float: right;
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+#cartButton {
+  padding: 10px 15px;
+}
+
