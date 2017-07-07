@@ -635,3 +635,4 @@ canvas {
 }
 
 * {
+  box-sizing: border-box;
