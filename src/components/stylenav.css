@@ -642,3 +642,8 @@ canvas {
   z-index: 1;
 }
 /* Item Page Styling */
+.item {
+  background: #fafdff;
+}
+
+h2 {
