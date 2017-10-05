@@ -727,3 +727,13 @@ h2 {
 }
 .cart h3 {
   color: #ffffff;
+}
+
+#cartNumber {
+  color: #ffffff;
+  float: right;
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+#cartButton {
