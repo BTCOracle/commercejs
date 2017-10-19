@@ -739,3 +739,10 @@ h2 {
 #cartButton {
   padding: 10px 15px;
 }
+
+.cartItem {
+  padding: 0;
+  max-block-size: inherit;
+}
+
+.cartInfo {
