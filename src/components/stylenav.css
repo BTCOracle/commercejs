@@ -756,3 +756,8 @@ h2 {
 
 #buy {
   float: right;
+  border-radius: 7px;
+  margin: 10px 0 80px;
+}
+
+.quantityButton{
