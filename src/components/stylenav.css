@@ -832,3 +832,12 @@ h2 {
 
 .addToCart{
   float:right;
+  margin-top: 0px;
+  border-radius: 7px;
+}
+
+/* Keeps color buttons on item page from colliding on resize */
+@media screen and (max-width: 929px ) {
+  .colorButton,
+  .addToCart {
+    margin-top: 10px;
