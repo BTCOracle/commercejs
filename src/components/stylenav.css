@@ -841,3 +841,10 @@ h2 {
   .colorButton,
   .addToCart {
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-device-width: 575px ) {
+  canvas {
+    width:100%;
+    height: 100%;
