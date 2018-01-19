@@ -848,3 +848,15 @@ h2 {
   canvas {
     width:100%;
     height: 100%;
+  }
+  .info {
+    margin: 30px;
+    padding: 30px;
+  }
+
+}
+
+/* Navbar Styling */
+.mainNav {
+  height: 70px;
+  z-index: 20;
