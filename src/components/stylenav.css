@@ -886,3 +886,17 @@ h2 {
 }
 
 #cartNumber {
+  color: #ffffff;
+  float: right;
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+#cartButton {
+  padding: 10px 15px;
+}
+
+.cartItem {
+  padding: 0;
+  max-block-size: inherit;
+}
