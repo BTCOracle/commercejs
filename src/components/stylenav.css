@@ -900,3 +900,10 @@ h2 {
   padding: 0;
   max-block-size: inherit;
 }
+
+.cartInfo {
+  margin-top: 20px;
+}
+
+#total{
+  float: right;
