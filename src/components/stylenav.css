@@ -950,3 +950,18 @@ canvas {
 * {
   box-sizing: border-box;
 }
+
+.sr-only {
+  z-index: 1;
+}
+/* Item Page Styling */
+.item {
+  background: #fafdff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info {
