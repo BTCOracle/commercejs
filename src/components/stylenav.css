@@ -982,3 +982,9 @@ h2 {
   width: 50px;
   height: 50px;
   margin-right: 10px;
+  /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+.addToCart{
