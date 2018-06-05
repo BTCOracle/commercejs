@@ -997,3 +997,7 @@ h2 {
 @media screen and (max-width: 929px ) {
   .colorButton,
   .addToCart {
+    margin-top: 10px;
+  }
+}
+
