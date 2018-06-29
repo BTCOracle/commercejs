@@ -1018,3 +1018,10 @@ h2 {
   height: 70px;
   z-index: 20;
 }
+
+ /* Cart Styling */
+ .cart{
+  position: fixed;
+  top: 70px;
+  right: 0;
+  height: 100vh;
