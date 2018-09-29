@@ -1078,3 +1078,15 @@ h2 {
   width: 27px;
   border-radius: 50%;
   border-style: solid;
+  border-width: .1px;
+  border-color:#30334c ;
+  background: linear-gradient(45deg, #30334c, #292b40);
+  box-shadow:  20px 20px 60px #202232, -20px -20px 60px #3a3e5c;
+}
+
+span .fas {
+  color: #ffffff;
+}
+
+.fa-trash {
+  float:right;
