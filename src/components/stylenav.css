@@ -1127,3 +1127,11 @@ h2 {
 
 .buttonRow {
   margin-top: 80px;
+}
+
+/* Possible Item Colors */
+.colorButton {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#e6e6e6 ;
