@@ -1171,3 +1171,15 @@ h2 {
 
 /* Navbar Styling */
 .mainNav {
+  height: 70px;
+  z-index: 20;
+}
+
+ /* Cart Styling */
+ .cart{
+  position: fixed;
+  top: 70px;
+  right: 0;
+  height: 100vh;
+  background: #2D3047;
+  padding: 40px;
