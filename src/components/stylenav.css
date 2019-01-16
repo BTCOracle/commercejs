@@ -1183,3 +1183,5 @@ h2 {
   height: 100vh;
   background: #2D3047;
   padding: 40px;
+  z-index: 100;
+  overflow: scroll;
