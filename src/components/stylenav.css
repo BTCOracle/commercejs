@@ -1208,3 +1208,16 @@ h2 {
 #cartButton {
   padding: 10px 15px;
 }
+
+.cartItem {
+  padding: 0;
+  max-block-size: inherit;
+}
+
+.cartInfo {
+  margin-top: 20px;
+}
+
+#total{
+  float: right;
+  margin-top: 20px;
