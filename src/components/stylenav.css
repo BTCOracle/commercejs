@@ -1245,3 +1245,11 @@ span .fas {
 }
 
 .fa-trash {
+  float:right;
+}
+
+body,
+html,
+canvas {
+  width: 100vw;
+  height: 100vh;
