@@ -1304,3 +1304,6 @@ h2 {
   margin-top: 0px;
   border-radius: 7px;
 }
+
+/* Keeps color buttons on item page from colliding on resize */
+@media screen and (max-width: 929px ) {
