@@ -1347,3 +1347,15 @@ h2 {
 .cart p {
   color: #ffffff;
 }
+.cart h4 {
+  color: #ffffff;
+}
+.cart h3 {
+  color: #ffffff;
+}
+
+#cartNumber {
+  color: #ffffff;
+  float: right;
+  margin-left: 7px;
+  font-size: 15px;
