@@ -1396,3 +1396,8 @@ h2 {
   box-shadow:  20px 20px 60px #202232, -20px -20px 60px #3a3e5c;
 }
 
+span .fas {
+  color: #ffffff;
+}
+
+.fa-trash {
