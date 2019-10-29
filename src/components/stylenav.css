@@ -1451,3 +1451,21 @@ h2 {
   height: 50px;
   margin-right: 10px;
   /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+.addToCart{
+  float:right;
+  margin-top: 0px;
+  border-radius: 7px;
+}
+
+/* Keeps color buttons on item page from colliding on resize */
+@media screen and (max-width: 929px ) {
+  .colorButton,
+  .addToCart {
+    margin-top: 10px;
+  }
+}
+
