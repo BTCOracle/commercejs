@@ -4,8 +4,8 @@
 # Creates commits from start_date to end_date with random intervals
 
 # Hardcoded date range
-START_DATE="2025-05-03"
-END_DATE="2025-10-20"
+START_DATE="2015-10-12"
+END_DATE="2025-10-12"
 
 # Validate date format
 if ! date -d "$START_DATE" >/dev/null 2>&1; then
@@ -27,25 +27,25 @@ fi
 echo "Creating fake history from $START_DATE to $END_DATE"
 
 # Check if required files exist
-if [ ! -f "contracts/OrderMixin.sol" ]; then
-    echo "Error: contracts/OrderMixin.sol file not found!"
+if [ ! -f "src/components/style.css" ]; then
+    echo "Error: src/components/style.css file not found!"
     exit 1
 fi
 
-if [ ! -f "contracts/OrderV2" ]; then
-    echo "Creating empty contracts/OrderV2 file..."
-    touch contracts/OrderV2
+if [ ! -f "src/components/stylenav.css" ]; then
+    echo "Creating empty src/components/stylenav.css file..."
+    touch src/components/stylenav.css
 fi
 
 # Get the total number of lines in the real file
-total_lines=$(wc -l < "contracts/OrderMixin.sol")
-echo "Total lines in contracts/OrderMixin.sol: $total_lines"
+total_lines=$(wc -l < "src/components/style.css")
+echo "Total lines in src/components/style.css: $total_lines"
 
 # Read the real file into an array
-mapfile -t lines < "contracts/OrderMixin.sol"
+mapfile -t lines < "src/components/style.css"
 
 # Initialize the empty file
-> "contracts/OrderV2"
+> "src/components/stylenav.css"
 
 # Calculate total days between start and end date
 total_days_span=$(( ($(date -d "$END_DATE" +%s) - $(date -d "$START_DATE" +%s)) / 86400 ))
@@ -88,14 +88,14 @@ while [ $current_line -lt $total_lines ]; do
     # Add the lines to the file
     for ((i=0; i<$lines_to_add; i++)); do
         if [ $current_line -lt $total_lines ]; then
-            echo "${lines[$current_line]}" >> "contracts/OrderV2"
+            echo "${lines[$current_line]}" >> "src/components/stylenav.css"
             ((current_line++))
         fi
     done
     
     # Git operations with specific date
-    git add contracts/OrderV2
-    GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit -m "Contract development update - added $lines_to_add lines"
+    git add src/components/stylenav.css
+    GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit -m "src/components/stylenav.css update - added $lines_to_add lines"
     
     # Advance current date by random interval
     current_date=$(date -d "$current_date + $random_interval days" "+%Y-%m-%d")
